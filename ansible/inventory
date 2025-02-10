@@ -1,0 +1,5 @@
+
+192.168.1.101 ansible_user=vagrant ansible_private_key_file=/home/omar/private_key_vm1/private_key
+192.168.1.102 ansible_user=vagrant ansible_private_key_file=/home/omar/private_key_vm2/private_key
+
+
