@@ -1,4 +1,8 @@
 ---
+- name: Deploy Docker Container
+  hosts: all
+  become: yes
+  tasks:
     - name: Install Docker
       yum:
         name: docker
@@ -11,8 +15,18 @@
         enabled: yes
 
     - name: Pull Docker Image
-      command: docker pull omar2682/weather-app:latest
+      docker_image:
+        name: omar2682/weather-app
+        tag: latest
+        source: pull
 
     - name: Run Docker Container
-      command: docker run -d --name weather-app -p 5000:5000 omar2682/weather-app:latest
+      docker_container:
+        name: weather-app
+        image: omar2682/weather-app:latest
+        state: started
+        restart_policy: always
+        published_ports:
+          - "5000:5000"
+
 
