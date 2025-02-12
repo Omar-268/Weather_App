@@ -23,8 +23,8 @@ The Jenkins pipeline (jenkinsfile) consists of the following stages:
 
 After successful deployment, the Weather App will be running on the target virtual machines. Below is a screenshot of the deployed application
 
-| ![Image1](192.168.1.93_example1.png) | ![Image2](192.168.1.93_example2.png) |
+| ![Image1](images/192.168.1.93_example1.png) | ![Image2](images/192.168.1.93_example2.png) |
 |----------------------|----------------------|
-| ![Image3](192.168.1.94_example1.png) | ![Image4](192.168.1.94_example2.png) |
+| ![Image3](images/192.168.1.94_example1.png) | ![Image4](images/192.168.1.94_example2.png) |
 
 
