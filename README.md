@@ -27,4 +27,10 @@ After successful deployment, the Weather App will be running on the target virtu
 |----------------------|----------------------|
 | ![Image3](images/192.168.1.94_example1.png) | ![Image4](images/192.168.1.94_example2.png) |
 
+## Email Notifications
+
+The Jenkins pipeline includes email notifications to inform developers about the status of the build. Upon successful deployment, an email is sent with a success message. If the build fails, an email is sent with failure details to help with debugging.
+### example 
+![Image3](images/email_notification.png)
+
 
