@@ -5,7 +5,7 @@ This project automates the deployment of a Python-based Weather App using Jenkin
 ## Project diagram
 ![Project diagram](images/project_diagram.png)
 
-##CI/CD Pipeline
+## CI/CD Pipeline
 The Jenkins pipeline (jenkinsfile) consists of the following stages:
 1. Checkout Code: Pulls the latest code from the GitHub repository.
 2. Build Docker Image: Creates a Docker image for the Weather App.
