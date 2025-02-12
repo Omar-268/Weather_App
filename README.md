@@ -13,3 +13,9 @@ The Jenkins pipeline (jenkinsfile) consists of the following stages:
 4. Deploy with Ansible: Uses Ansible to pull the image and run a container on the target machines.
 5. Email Notifications: Sends an email upon build success or failure.
 
+### Ensure Jenkins has:
+
+- Credentials for GitHub (jenkins-github-token)
+- Credentials for Docker Hub (jenkins-dockerhub-token)
+- SSH agent configured for Ansible nodes (vagrant-vm1, vagrant-vm2)
+
