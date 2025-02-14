@@ -19,6 +19,9 @@ The Jenkins pipeline (jenkinsfile) consists of the following stages:
 - Credentials for Docker Hub (jenkins-dockerhub-token)
 - SSH agent configured for Ansible nodes (vagrant-vm1, vagrant-vm2)
 
+### You can see the Jenkins steps illustrated below
+![Steps](images/jenkins.png)
+
 ## Output
 
 After successful deployment, the Weather App will be running on the target virtual machines. Below is a screenshot of the deployed application
